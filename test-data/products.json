@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "category": "electronics",
+    "price": 89.99,
+    "currency": "USD",
+    "inStock": true,
+    "quantity": 45,
+    "rating": 4.5,
+    "reviews": 234,
+    "brand": "SoundMax",
+    "description": "High-quality wireless headphones with noise cancellation",
+    "specifications": {
+      "batteryLife": "30 hours",
+      "connectivity": "Bluetooth 5.0",
+      "weight": "250g",
+      "colors": ["black", "white", "blue"]
+    },
+    "tags": ["wireless", "bluetooth", "noise-cancellation", "portable"],
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-12-01T14:22:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Organic Coffee Beans",
+    "category": "food",
+    "price": 24.99,
+    "currency": "USD",
+    "inStock": true,
+    "quantity": 120,
+    "rating": 4.8,
+    "reviews": 89,
+    "brand": "Mountain Roast",
+    "description": "Premium organic coffee beans from Colombian highlands",
+    "specifications": {
+      "roastLevel": "medium",
+      "origin": "Colombia",
+      "weight": "1lb",
+      "organic": true
+    },
+    "tags": ["organic", "coffee", "premium", "fair-trade"],
+    "createdAt": "2024-02-20T09:15:00Z",
+    "updatedAt": "2024-11-28T16:45:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Gaming Mechanical Keyboard",
+    "category": "electronics",
+    "price": 149.99,
+    "currency": "USD",
+    "inStock": false,
+    "quantity": 0,
+    "rating": 4.7,
+    "reviews": 156,
+    "brand": "TechGear",
+    "description": "RGB mechanical keyboard with customizable keys",
+    "specifications": {
+      "keyType": "Cherry MX Blue",
+      "backlighting": "RGB",
+      "connectivity": "USB-C",
+      "layout": "full-size"
+    },
+    "tags": ["gaming", "mechanical", "rgb", "customizable"],
+    "createdAt": "2024-03-10T11:20:00Z",
+    "updatedAt": "2024-12-05T08:30:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Yoga Mat Premium",
+    "category": "fitness",
+    "price": 45.00,
+    "currency": "USD",
+    "inStock": true,
+    "quantity": 78,
+    "rating": 4.3,
+    "reviews": 67,
+    "brand": "ZenFit",
+    "description": "Non-slip yoga mat with excellent grip and cushioning",
+    "specifications": {
+      "material": "TPE",
+      "thickness": "6mm",
+      "dimensions": "183cm x 61cm",
+      "weight": "1.2kg"
+    },
+    "tags": ["yoga", "fitness", "non-slip", "eco-friendly"],
+    "createdAt": "2024-04-05T13:45:00Z",
+    "updatedAt": "2024-11-30T10:15:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Smart Watch Pro",
+    "category": "electronics",
+    "price": 299.99,
+    "currency": "USD",
+    "inStock": true,
+    "quantity": 23,
+    "rating": 4.6,
+    "reviews": 445,
+    "brand": "TechTime",
+    "description": "Advanced smartwatch with health monitoring and GPS",
+    "specifications": {
+      "displaySize": "1.4 inches",
+      "batteryLife": "7 days",
+      "waterProof": "5ATM",
+      "sensors": ["heart rate", "GPS", "accelerometer", "gyroscope"]
+    },
+    "tags": ["smartwatch", "health", "gps", "waterproof"],
+    "createdAt": "2024-05-12T15:00:00Z",
+    "updatedAt": "2024-12-02T12:30:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Gourmet Chocolate Box",
+    "category": "food",
+    "price": 35.99,
+    "currency": "USD",
+    "inStock": true,
+    "quantity": 156,
+    "rating": 4.9,
+    "reviews": 203,
+    "brand": "ChocoDream",
+    "description": "Assorted premium chocolates in elegant gift box",
+    "specifications": {
+      "pieces": 24,
+      "weight": "300g",
+      "varieties": ["dark", "milk", "white", "truffle"],
+      "allergens": ["nuts", "dairy"]
+    },
+    "tags": ["chocolate", "premium", "gift", "assorted"],
+    "createdAt": "2024-06-18T08:25:00Z",
+    "updatedAt": "2024-11-25T14:10:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Resistance Band Set",
+    "category": "fitness",
+    "price": 29.99,
+    "currency": "USD",
+    "inStock": true,
+    "quantity": 92,
+    "rating": 4.4,
+    "reviews": 134,
+    "brand": "FlexFit",
+    "description": "Complete resistance band set for strength training",
+    "specifications": {
+      "bands": 5,
+      "resistance": ["light", "medium", "heavy", "extra-heavy"],
+      "accessories": ["handles", "door anchor", "ankle straps"],
+      "material": "latex"
+    },
+    "tags": ["resistance", "strength", "portable", "home-gym"],
+    "createdAt": "2024-07-22T16:40:00Z",
+    "updatedAt": "2024-12-03T11:20:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Vintage Wine Collection",
+    "category": "beverages",
+    "price": 199.99,
+    "currency": "USD",
+    "inStock": true,
+    "quantity": 12,
+    "rating": 4.7,
+    "reviews": 28,
+    "brand": "VintageCellar",
+    "description": "Curated selection of premium vintage wines",
+    "specifications": {
+      "bottles": 6,
+      "types": ["red", "white"],
+      "regions": ["Bordeaux", "Tuscany", "Napa Valley"],
+      "vintage": "2019-2021"
+    },
+    "tags": ["wine", "vintage", "premium", "collection"],
+    "createdAt": "2024-08-14T12:15:00Z",
+    "updatedAt": "2024-11-29T09:45:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Wireless Charging Pad",
+    "category": "electronics",
+    "price": 39.99,
+    "currency": "USD",
+    "inStock": true,
+    "quantity": 67,
+    "rating": 4.2,
+    "reviews": 89,
+    "brand": "PowerMax",
+    "description": "Fast wireless charging pad compatible with all devices",
+    "specifications": {
+      "power": "15W",
+      "compatibility": ["iPhone", "Samsung", "Google Pixel"],
+      "chargingSpeed": "fast",
+      "indicator": "LED"
+    },
+    "tags": ["wireless", "charging", "fast", "universal"],
+    "createdAt": "2024-09-03T14:55:00Z",
+    "updatedAt": "2024-12-01T13:25:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Artisan Bread Mix",
+    "category": "food",
+    "price": 12.99,
+    "currency": "USD",
+    "inStock": true,
+    "quantity": 89,
+    "rating": 4.6,
+    "reviews": 112,
+    "brand": "BreadCraft",
+    "description": "Premium artisan bread mix for homemade baking",
+    "specifications": {
+      "servings": 8,
+      "weight": "500g",
+      "ingredients": ["flour", "yeast", "salt", "herbs"],
+      "bakingTime": "45 minutes"
+    },
+    "tags": ["artisan", "bread", "homemade", "premium"],
+    "createdAt": "2024-10-11T10:30:00Z",
+    "updatedAt": "2024-11-27T15:40:00Z"
+  }
+]

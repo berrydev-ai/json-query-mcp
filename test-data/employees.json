@@ -1,0 +1,174 @@
+[
+  {
+    "id": 1001,
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@company.com",
+    "department": "Engineering",
+    "position": "Senior Software Engineer",
+    "salary": 95000,
+    "hireDate": "2020-03-15",
+    "isActive": true,
+    "manager": {
+      "id": 1010,
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@company.com"
+    },
+    "skills": ["JavaScript", "Python", "React", "Node.js"],
+    "projects": [
+      {
+        "name": "Project Alpha",
+        "role": "Lead Developer",
+        "status": "completed",
+        "startDate": "2023-01-01",
+        "endDate": "2023-06-30"
+      },
+      {
+        "name": "Project Beta",
+        "role": "Frontend Developer",
+        "status": "in-progress",
+        "startDate": "2023-07-01",
+        "endDate": null
+      }
+    ],
+    "performance": {
+      "2023": {
+        "rating": 4.5,
+        "goals": ["Improve code quality", "Mentor junior developers"],
+        "achievements": ["Led successful project delivery", "Reduced bug rate by 30%"]
+      }
+    }
+  },
+  {
+    "id": 1002,
+    "firstName": "Maria",
+    "lastName": "Garcia",
+    "email": "maria.garcia@company.com",
+    "department": "Marketing",
+    "position": "Marketing Manager",
+    "salary": 78000,
+    "hireDate": "2019-08-20",
+    "isActive": true,
+    "manager": {
+      "id": 1015,
+      "name": "David Wilson",
+      "email": "david.wilson@company.com"
+    },
+    "skills": ["Digital Marketing", "SEO", "Content Strategy", "Analytics"],
+    "projects": [
+      {
+        "name": "Q4 Campaign",
+        "role": "Campaign Manager",
+        "status": "completed",
+        "startDate": "2023-10-01",
+        "endDate": "2023-12-31"
+      }
+    ],
+    "performance": {
+      "2023": {
+        "rating": 4.8,
+        "goals": ["Increase brand awareness", "Launch new product campaign"],
+        "achievements": ["20% increase in leads", "Successful product launch"]
+      }
+    }
+  },
+  {
+    "id": 1003,
+    "firstName": "Robert",
+    "lastName": "Chen",
+    "email": "robert.chen@company.com",
+    "department": "Engineering",
+    "position": "Junior Developer",
+    "salary": 65000,
+    "hireDate": "2022-06-01",
+    "isActive": true,
+    "manager": {
+      "id": 1001,
+      "name": "John Smith",
+      "email": "john.smith@company.com"
+    },
+    "skills": ["Java", "Spring", "MySQL", "Git"],
+    "projects": [
+      {
+        "name": "Project Beta",
+        "role": "Backend Developer",
+        "status": "in-progress",
+        "startDate": "2023-07-01",
+        "endDate": null
+      }
+    ],
+    "performance": {
+      "2023": {
+        "rating": 4.0,
+        "goals": ["Learn new technologies", "Improve code review skills"],
+        "achievements": ["Completed certification", "Contributed to major feature"]
+      }
+    }
+  },
+  {
+    "id": 1004,
+    "firstName": "Lisa",
+    "lastName": "Anderson",
+    "email": "lisa.anderson@company.com",
+    "department": "Sales",
+    "position": "Sales Representative",
+    "salary": 55000,
+    "hireDate": "2021-11-10",
+    "isActive": true,
+    "manager": {
+      "id": 1020,
+      "name": "Michael Brown",
+      "email": "michael.brown@company.com"
+    },
+    "skills": ["Sales", "Customer Relations", "CRM", "Negotiation"],
+    "projects": [
+      {
+        "name": "Enterprise Sales Initiative",
+        "role": "Sales Lead",
+        "status": "in-progress",
+        "startDate": "2023-09-01",
+        "endDate": null
+      }
+    ],
+    "performance": {
+      "2023": {
+        "rating": 4.2,
+        "goals": ["Exceed sales targets", "Build client relationships"],
+        "achievements": ["110% of sales target", "5 new enterprise clients"]
+      }
+    }
+  },
+  {
+    "id": 1005,
+    "firstName": "James",
+    "lastName": "Wilson",
+    "email": "james.wilson@company.com",
+    "department": "HR",
+    "position": "HR Specialist",
+    "salary": 62000,
+    "hireDate": "2020-01-15",
+    "isActive": false,
+    "manager": {
+      "id": 1025,
+      "name": "Emma Davis",
+      "email": "emma.davis@company.com"
+    },
+    "skills": ["Recruitment", "Employee Relations", "HR Policies", "Training"],
+    "projects": [
+      {
+        "name": "Onboarding Process Improvement",
+        "role": "Project Lead",
+        "status": "completed",
+        "startDate": "2023-01-01",
+        "endDate": "2023-08-31"
+      }
+    ],
+    "performance": {
+      "2023": {
+        "rating": 3.8,
+        "goals": ["Improve onboarding process", "Reduce time-to-hire"],
+        "achievements": ["New onboarding system", "25% faster hiring"]
+      }
+    }
+  }
+]

@@ -1,0 +1,174 @@
+{
+  "organization": {
+    "name": "Global Tech Solutions",
+    "headquarters": {
+      "address": {
+        "street": "123 Innovation Drive",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "94105",
+        "country": "USA",
+        "coordinates": {
+          "latitude": 37.7749,
+          "longitude": -122.4194
+        }
+      },
+      "contact": {
+        "phone": {
+          "main": "+1-555-123-4567",
+          "fax": "+1-555-123-4568"
+        },
+        "email": {
+          "general": "info@globaltechsolutions.com",
+          "support": "support@globaltechsolutions.com"
+        }
+      }
+    },
+    "divisions": {
+      "engineering": {
+        "teams": {
+          "frontend": {
+            "lead": {
+              "name": "Sarah Johnson",
+              "title": "Senior Frontend Architect",
+              "experience": {
+                "years": 8,
+                "previousCompanies": ["Google", "Facebook"],
+                "skills": {
+                  "languages": ["JavaScript", "TypeScript", "Python"],
+                  "frameworks": ["React", "Vue", "Angular"],
+                  "tools": ["Webpack", "Vite", "Jest"]
+                }
+              }
+            },
+            "members": [
+              {
+                "name": "Alex Chen",
+                "level": "Senior",
+                "specialization": {
+                  "primary": "React",
+                  "secondary": "Node.js",
+                  "certifications": ["AWS Solutions Architect", "Google Cloud Professional"]
+                }
+              },
+              {
+                "name": "Maria Rodriguez",
+                "level": "Mid",
+                "specialization": {
+                  "primary": "Vue.js",
+                  "secondary": "CSS",
+                  "certifications": ["Vue.js Certification"]
+                }
+              }
+            ]
+          },
+          "backend": {
+            "lead": {
+              "name": "David Kim",
+              "title": "Principal Backend Engineer",
+              "experience": {
+                "years": 12,
+                "previousCompanies": ["Amazon", "Microsoft", "Netflix"],
+                "skills": {
+                  "languages": ["Java", "Python", "Go", "Rust"],
+                  "frameworks": ["Spring", "Django", "FastAPI"],
+                  "databases": ["PostgreSQL", "MongoDB", "Redis"]
+                }
+              }
+            },
+            "members": [
+              {
+                "name": "Jennifer Walsh",
+                "level": "Senior",
+                "specialization": {
+                  "primary": "Microservices",
+                  "secondary": "Kubernetes",
+                  "certifications": ["Certified Kubernetes Administrator", "AWS DevOps Professional"]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "sales": {
+        "regions": {
+          "americas": {
+            "manager": {
+              "name": "Robert Thompson",
+              "territory": {
+                "countries": ["USA", "Canada", "Mexico", "Brazil"],
+                "languages": ["English", "Spanish", "Portuguese"],
+                "performance": {
+                  "2023": {
+                    "target": 5000000,
+                    "achieved": 5200000,
+                    "metrics": {
+                      "conversionRate": 0.12,
+                      "averageDealSize": 125000,
+                      "customerSatisfaction": 4.6
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "emea": {
+            "manager": {
+              "name": "Elena Volkov",
+              "territory": {
+                "countries": ["UK", "Germany", "France", "Italy", "Spain"],
+                "languages": ["English", "German", "French", "Italian", "Spanish"],
+                "performance": {
+                  "2023": {
+                    "target": 3500000,
+                    "achieved": 3800000,
+                    "metrics": {
+                      "conversionRate": 0.15,
+                      "averageDealSize": 95000,
+                      "customerSatisfaction": 4.8
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "products": {
+      "enterprise": {
+        "suite": {
+          "name": "Enterprise Solution Pro",
+          "version": "2.5.0",
+          "modules": {
+            "core": {
+              "features": {
+                "authentication": {
+                  "methods": ["SSO", "LDAP", "OAuth2"],
+                  "security": {
+                    "encryption": "AES-256",
+                    "tokenExpiry": 3600,
+                    "maxFailedAttempts": 5
+                  }
+                },
+                "reporting": {
+                  "formats": ["PDF", "Excel", "CSV"],
+                  "scheduling": {
+                    "frequencies": ["daily", "weekly", "monthly"],
+                    "delivery": {
+                      "methods": ["email", "ftp", "api"],
+                      "recipients": {
+                        "internal": ["admin@company.com"],
+                        "external": ["client@customer.com"]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
