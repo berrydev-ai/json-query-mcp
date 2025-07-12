@@ -20,6 +20,7 @@
     "test": "jest",
     "lint": "eslint src/**/*.ts",
     "inspector": "npx @modelcontextprotocol/inspector node dist/index.js",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build && npm run lint && npm test"
   },
   "dependencies": {
@@ -50,12 +51,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/berrydev-ai/json-mcp-server.git"
+    "url": "git+https://github.com/berrydev-ai/json-query-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/berrydev-ai/json-mcp-server/issues"
+    "url": "https://github.com/berrydev-ai/json-query-mcp/issues"
   },
-  "homepage": "https://github.com/berrydev-ai/json-mcp-server#readme",
+  "homepage": "https://github.com/berrydev-ai/json-query-mcp#readme",
   "engines": {
     "node": ">=18.0.0"
   },
