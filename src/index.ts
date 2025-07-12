@@ -97,7 +97,8 @@ class JsonQueryMCP {
         } catch (error) {
           throw new McpError(
             ErrorCode.InternalError,
-            `Failed to load JSON file: ${error instanceof Error ? error.message : "Unknown error"
+            `Failed to load JSON file: ${
+              error instanceof Error ? error.message : "Unknown error"
             }`
           )
         }
@@ -107,9 +108,16 @@ class JsonQueryMCP {
     this.server.setRequestHandler(ListToolsRequestSchema, async () => {
       const defaultFileSchema = await this.getDefaultFileSchema()
 
-      let queryDescription = "Query JSON data using JSONPath expressions (similar to jq)"
+      let queryDescription =
+        "Query JSON data using JSONPath expressions (similar to jq)"
       if (this.defaultFilePath && defaultFileSchema) {
-        queryDescription += `\n\nDefault file: ${this.defaultFilePath}\nData structure schema:\n${JSON.stringify(defaultFileSchema, null, 2)}`
+        queryDescription += `\n\nDefault file: ${
+          this.defaultFilePath
+        }\nData structure schema:\n${JSON.stringify(
+          defaultFileSchema,
+          null,
+          2
+        )}`
       }
 
       return {
@@ -183,7 +191,8 @@ class JsonQueryMCP {
         } catch (error) {
           throw new McpError(
             ErrorCode.InternalError,
-            `Query failed: ${error instanceof Error ? error.message : "Unknown error"
+            `Query failed: ${
+              error instanceof Error ? error.message : "Unknown error"
             }`
           )
         }
@@ -216,7 +225,8 @@ class JsonQueryMCP {
         } catch (error) {
           throw new McpError(
             ErrorCode.InternalError,
-            `Schema generation failed: ${error instanceof Error ? error.message : "Unknown error"
+            `Schema generation failed: ${
+              error instanceof Error ? error.message : "Unknown error"
             }`
           )
         }
